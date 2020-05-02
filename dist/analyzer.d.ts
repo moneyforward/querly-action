@@ -38,7 +38,7 @@ export interface ConfigErrors {
 export default class Analyzer extends StaticCodeAnalyzer {
     private static readonly command;
     constructor(options?: string[]);
-    prepare(): Promise<unknown>;
-    createTransformStreams(): Transformers;
+    protected prepare(): Promise<unknown>;
+    protected createTransformStreams(): Transformers;
 }
 export {};
