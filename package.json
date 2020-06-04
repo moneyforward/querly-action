@@ -1,6 +1,6 @@
 {
   "name": "@moneyforward/code-review-action-querly-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Analyze code statically using Querly in Github actions",
   "main": "dist/main/index.js",
   "scripts": {
